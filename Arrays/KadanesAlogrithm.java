@@ -4,7 +4,7 @@ public class KadanesAlogrithm {
 
   // Start with 53. Maximum Subarray (Kadane’s basics)
   // Do 121. Best Time to Buy and Sell Stock (Kadane’s idea in disguise)
-  // Do 152. Maximum Product Subarray (extension of Kadane’s)
+  // Do 152. Maximum Product Subarray  (extension of Kadane’s)
   // Do 918. Maximum Sum Circular Subarray (Kadane’s with circular twist)
 
   public static int maxProduct(int[] nums) {
@@ -30,7 +30,7 @@ public class KadanesAlogrithm {
   }
 
   public static int maxSubarraySumCircular(int[] nums) {
-    // max circular sum=total sum−min subarray sum
+    // max circular sum=total sum --- min subarray sum
     int total = nums[0];
     int currMax = nums[0], maxSum = nums[0];
     int currMin = nums[0], minSum = nums[0];
@@ -67,6 +67,7 @@ public class KadanesAlogrithm {
     System.out.println("Maximum sum is ---> " + maxSum);
     return maxSum;
   }
+
 
   public static void main(String[] args) {
     int[] arr = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
