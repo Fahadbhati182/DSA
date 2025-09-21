@@ -30,7 +30,7 @@ public class BestTimeToBuyAndSellStock {
     int Profit = 0;
     int bestBuy = prices[0];
 
-    for (int i = 0; i < prices.length; i++) {
+    for (int i = 1; i < prices.length; i++) {
       if (prices[i] > prices[i - 1]) {
         Profit += prices[i] - prices[i - 1];
       }
@@ -43,6 +43,8 @@ public class BestTimeToBuyAndSellStock {
 
   public static void main(String[] args) {
     int[] arr = { 7, 1, 5, 3, 6, 4 };
-    maxProfitOne(arr);
+    int n = maxProfitTwo(arr);
+    System.out.println(n);
+    
   }
 }
