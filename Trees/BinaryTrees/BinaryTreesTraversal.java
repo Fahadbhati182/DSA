@@ -61,7 +61,7 @@ public class BinaryTreesTraversal {
   }
 
   public static void main(String[] args) {
-    int[] preorder = { 1, 2, -1, -1, 3, 4,  -1, -1,5, -1, -1 };
+    int[] preorder = { 1, 2, -1, -1, 3, 4, -1, -1, 5, -1, -1 };
     BuildTree idx = new BuildTree();
     Node root = idx.buildTree(preorder);
 
