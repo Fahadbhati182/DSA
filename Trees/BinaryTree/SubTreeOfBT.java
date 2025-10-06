@@ -1,6 +1,7 @@
 package BinaryTree;
 
 public class SubTreeOfBT {
+
     public boolean isSubTree(Node p, Node q) {
         if (p == null || q == null) {
             return q == p;

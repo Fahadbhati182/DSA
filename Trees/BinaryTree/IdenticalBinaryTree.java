@@ -1,6 +1,7 @@
 package BinaryTree;
 
 public class IdenticalBinaryTree {
+
     public static boolean isIdentical(Node root1, Node root2) {
 
         if (root1 == null || root2 == null) {

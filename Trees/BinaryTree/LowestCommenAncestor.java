@@ -1,6 +1,7 @@
 package BinaryTree;
 
 public class LowestCommenAncestor {
+
     public static Node lowestCommanAncestor(Node root, Node p, Node q) {
         if (root == null || root == p || root == q) {
             return root;

@@ -1,6 +1,7 @@
 package BinaryTree;
 
 public class MorrisInorderTraversal {
+
     public void morrisInorderTraversal(Node curr) {
         while (curr != null) {
             if (curr.left == null) {

@@ -1,6 +1,7 @@
 package BinaryTree;
 
 public class DiameterOfBinaryTree {
+
     int ans = 0;
 
     public int height(Node root) {

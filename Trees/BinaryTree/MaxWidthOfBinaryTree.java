@@ -4,6 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class MaxWidthOfBinaryTree {
+
     static class Pair {
         Node node;
         int idx;
@@ -15,6 +16,8 @@ public class MaxWidthOfBinaryTree {
     }
 
     public int maxWidth(Node root) {
+        if (root == null) return 0; // <-- add this check
+
         Queue<Pair> q = new LinkedList<>();
         int maxWidth = 0;
 
@@ -41,6 +44,10 @@ public class MaxWidthOfBinaryTree {
             maxWidth = Math.max(maxWidth, last - first + 1);
         }
         return maxWidth;
+    }
+
+    public static void main(String[] args) {
+
     }
 
 }
