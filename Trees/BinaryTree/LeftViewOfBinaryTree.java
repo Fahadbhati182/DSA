@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class RightViewOfBinaryTree {
+public class LeftViewOfBinaryTree {
 
     public static List<Integer> rightViewOfBT(Node root) {
         Queue<Node> q = new LinkedList<>();
@@ -14,12 +14,12 @@ public class RightViewOfBinaryTree {
         q.add(root);
         while (!q.isEmpty()) {
             int currSize = q.size();
-            int last = 0;
+            int first = 0;
             for (int i = 0; i < currSize; i++) {
                 Node curr = q.remove();
 
-                if (i == currSize - 1)
-                    last = curr.data;
+                if (i == 0)
+                    first = curr.data;
 
                 if (curr.left != null) {
                     q.add(curr.left);
@@ -30,7 +30,7 @@ public class RightViewOfBinaryTree {
                 }
 
             }
-            list.add(last);
+            list.add(first);
 
         }
         return list;
