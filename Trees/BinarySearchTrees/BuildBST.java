@@ -8,6 +8,7 @@ public class BuildBST {
             root = insertElements(root, val);
         }
         System.out.println("The root element of BST is ---> " + root);
+        System.out.println(ValidateBST.isBST(root, null, null));
     }
 
     private static TreeNode insertElements(TreeNode root, int val) {

@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="215470f2-8c70-40e8-884c-8ef766feaa12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Trees/BinaryTree/ConstructFromPOAndIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/BinaryTree/RightViewOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trees/BinaryTree/BinaryTreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/BinaryTree/BinaryTreeTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trees/BinaryTree/DiameterOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/BinaryTree/DiameterOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trees/BinaryTree/IdenticalBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/BinaryTree/IdenticalBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trees/BinaryTree/LowestCommenAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/BinaryTree/LowestCommenAncestor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trees/BinaryTree/MaxWidthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/BinaryTree/MaxWidthOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trees/BinaryTree/MorrisInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/BinaryTree/MorrisInorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trees/BinaryTree/SubTreeOfBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/BinaryTree/SubTreeOfBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/BinarySearchTrees/BuildBSTFromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/BinarySearchTrees/ValidateBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/BinaryTree/BinaryTreePath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trees/BinarySearchTrees/BuildBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/BinarySearchTrees/BuildBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trees/BinarySearchTrees/SearchInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/BinarySearchTrees/SearchInBST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,34 +34,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BasicTerm.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConstructFromPOAndIn.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IdenticalBinaryTree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KthLevelOfBinaryTree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LowestCommenAncestor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxWidthOfBinaryTree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RightViewOfBinaryTree.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Fahad/Desktop/FAHAD/CODING/DSA&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BasicTerm.executor": "Run",
+    "Application.BuildBST.executor": "Run",
+    "Application.ConstructFromPOAndIn.executor": "Run",
+    "Application.IdenticalBinaryTree.executor": "Run",
+    "Application.KthLevelOfBinaryTree.executor": "Run",
+    "Application.LeftViewOfBinaryTree.executor": "Run",
+    "Application.LowestCommenAncestor.executor": "Run",
+    "Application.MaxWidthOfBinaryTree.executor": "Run",
+    "Application.RightViewOfBinaryTree.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Fahad/Desktop/FAHAD/CODING/DSA"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="BinaryTree" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.RightViewOfBinaryTree">
+  <component name="RunManager" selected="Application.BuildBST">
     <configuration name="BasicTerm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryTree.BasicTerm" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="BinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearchTrees.BuildBST" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySearchTrees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,25 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowestCommenAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTree.LowestCommenAncestor" />
+    <configuration name="LeftViewOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.LeftViewOfBinaryTree" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxWidthOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTree.MaxWidthOfBinaryTree" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="BinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuildBST" />
+        <item itemvalue="Application.LeftViewOfBinaryTree" />
         <item itemvalue="Application.RightViewOfBinaryTree" />
         <item itemvalue="Application.BasicTerm" />
         <item itemvalue="Application.ConstructFromPOAndIn" />
-        <item itemvalue="Application.MaxWidthOfBinaryTree" />
-        <item itemvalue="Application.LowestCommenAncestor" />
       </list>
     </recent_temporary>
   </component>
