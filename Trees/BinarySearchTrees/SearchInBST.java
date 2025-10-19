@@ -10,8 +10,8 @@ public class SearchInBST {
 
         if (root.val > val) {
             return search(root.left, val);
-        } else {        return search(root.right, val);
-
+        } else {
+            return search(root.right, val);
         }
 
     }

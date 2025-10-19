@@ -11,7 +11,7 @@ public class BuildBST {
         System.out.println(ValidateBST.isBST(root, null, null));
     }
 
-    private static TreeNode insertElements(TreeNode root, int val) {
+    public static TreeNode insertElements(TreeNode root, int val) {
         if (root == null) return new TreeNode(val);
 
         if (val < root.val) {

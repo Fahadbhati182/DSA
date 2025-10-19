@@ -1,7 +1,7 @@
 package BinarySearchTrees;
 
 public class BuildBSTFromSortedArray {
-    public static TreeNode BuildTreeFromSortedArray(int[] nums, int st, int end) {
+    public TreeNode BuildTreeFromSortedArray(int[] nums, int st, int end) {
         if (st > end) return null;
 
         int mid = st + (end - st) / 2;

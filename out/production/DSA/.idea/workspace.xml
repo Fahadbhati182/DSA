@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="215470f2-8c70-40e8-884c-8ef766feaa12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Trees/BinarySearchTrees/BuildBSTFromSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/BinarySearchTrees/ValidateBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/BinaryTree/BinaryTreePath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trees/BinarySearchTrees/BuildBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/BinarySearchTrees/BuildBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/BinarySearchTrees/BuildBstFromPreorder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Trees/BinarySearchTrees/SearchInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/BinarySearchTrees/SearchInBST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +35,7 @@
   "keyToString": {
     "Application.BasicTerm.executor": "Run",
     "Application.BuildBST.executor": "Run",
+    "Application.BuildBstFromPreorder.executor": "Run",
     "Application.ConstructFromPOAndIn.executor": "Run",
     "Application.IdenticalBinaryTree.executor": "Run",
     "Application.KthLevelOfBinaryTree.executor": "Run",
@@ -60,7 +58,7 @@
       <recent name="BinaryTree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BuildBST">
+  <component name="RunManager" selected="Application.BuildBstFromPreorder">
     <configuration name="BasicTerm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryTree.BasicTerm" />
       <module name="DSA" />
@@ -87,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructFromPOAndIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTree.ConstructFromPOAndIn" />
+    <configuration name="BuildBstFromPreorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearchTrees.BuildBstFromPreorder" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="BinarySearchTrees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuildBstFromPreorder" />
         <item itemvalue="Application.BuildBST" />
         <item itemvalue="Application.LeftViewOfBinaryTree" />
         <item itemvalue="Application.RightViewOfBinaryTree" />
         <item itemvalue="Application.BasicTerm" />
-        <item itemvalue="Application.ConstructFromPOAndIn" />
       </list>
     </recent_temporary>
   </component>
