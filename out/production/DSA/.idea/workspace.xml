@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="215470f2-8c70-40e8-884c-8ef766feaa12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Trees/BinarySearchTrees/BuildBstFromPreorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trees/BinarySearchTrees/SearchInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/BinarySearchTrees/SearchInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/BinarySearchTrees/InorderPredAndSucc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +37,13 @@
     "Application.BuildBstFromPreorder.executor": "Run",
     "Application.ConstructFromPOAndIn.executor": "Run",
     "Application.IdenticalBinaryTree.executor": "Run",
+    "Application.InorderPredAndSucc.executor": "Debug",
     "Application.KthLevelOfBinaryTree.executor": "Run",
     "Application.LeftViewOfBinaryTree.executor": "Run",
     "Application.LowestCommenAncestor.executor": "Run",
     "Application.MaxWidthOfBinaryTree.executor": "Run",
+    "Application.MergeTwoBST.executor": "Run",
+    "Application.PopulateNextRightPointer.executor": "Run",
     "Application.RightViewOfBinaryTree.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -58,20 +60,7 @@
       <recent name="BinaryTree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BuildBstFromPreorder">
-    <configuration name="BasicTerm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTree.BasicTerm" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BinaryTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.InorderPredAndSucc">
     <configuration name="BuildBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearchTrees.BuildBST" />
       <module name="DSA" />
@@ -98,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeftViewOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTree.LeftViewOfBinaryTree" />
+    <configuration name="InorderPredAndSucc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearchTrees.InorderPredAndSucc" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinaryTree.*" />
+          <option name="PATTERN" value="BinarySearchTrees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +100,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RightViewOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTree.RightViewOfBinaryTree" />
+    <configuration name="MergeTwoBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearchTrees.MergeTwoBST" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="BinarySearchTrees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PopulateNextRightPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearchTrees.PopulateNextRightPointer" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySearchTrees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InorderPredAndSucc" />
+        <item itemvalue="Application.PopulateNextRightPointer" />
+        <item itemvalue="Application.MergeTwoBST" />
         <item itemvalue="Application.BuildBstFromPreorder" />
         <item itemvalue="Application.BuildBST" />
-        <item itemvalue="Application.LeftViewOfBinaryTree" />
-        <item itemvalue="Application.RightViewOfBinaryTree" />
-        <item itemvalue="Application.BasicTerm" />
       </list>
     </recent_temporary>
   </component>
