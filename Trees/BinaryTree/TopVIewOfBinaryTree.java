@@ -45,32 +45,6 @@ public class TopVIewOfBinaryTree {
         System.out.println();
     }
 
-    public void BottomView(Node root) {
-        Queue<Pair> q = new LinkedList<>();
-        Map<Integer, Integer> topViewMap = new TreeMap<>();
 
-        q.add(new Pair(root, 0));
-
-        while (!q.isEmpty()) {
-            Pair curr = q.remove();
-            Node node = curr.node;
-            int hd = curr.hd;
-
-
-            topViewMap.put(hd, node.data);
-
-            if (node.left != null) {
-                q.add(new Pair(node.left, hd - 1));
-            }
-            if (node.right != null) {
-                q.add(new Pair(node.right, hd + 1));
-            }
-        }
-        System.out.print("Top View: ");
-        for (int data : topViewMap.values()) {
-            System.out.print(data + " ");
-        }
-        System.out.println();
-    }
 
 }
